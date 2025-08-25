@@ -2,7 +2,7 @@ package;
 
 import openfl.geom.Matrix;
 import openfl.display.BitmapData;
-import flixel.system.FlxSound;
+import flixel.sound.FlxSound;
 import flixel.util.FlxAxes;
 import Options.Option;
 import flixel.input.FlxInput;
