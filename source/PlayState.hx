@@ -13,6 +13,7 @@ import flixel.graphics.FlxGraphic;
 import openfl.utils.AssetManifest;
 import openfl.utils.AssetLibrary;
 import flixel.system.FlxAssets;
+import flixel.sound.FlxSound;
 
 import lime.app.Application;
 import lime.media.AudioContext;
@@ -3807,3 +3808,4 @@ class PlayState extends MusicBeatState
 
 	var curLight:Int = 0;
 }
+
