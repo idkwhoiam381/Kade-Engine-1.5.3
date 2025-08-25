@@ -16,9 +16,9 @@ haxelib install hscript 2.4.0 --quiet
 haxelib install flixel-tools --quiet
 haxelib install newgrounds 2.0.3 --quiet
 haxelib install actuate 1.9.0 --quiet
-haxelib install discord_rpc 1.0.0 --quiet
+haxelib install discord_rpc https://github.com/Aidan63/linc_discord-rpc --quiet
 haxelib git extension-webm https://github.com/luckydog7/extension-webm --quiet
-haxelib git polymod https://github.com/larsiusprime/polymod --quiet
+haxelib git polymod --quiet
 haxelib git hxcpp https://github.com/PsychExtendedThings/hxcpp --quiet
 haxelib git lime https://github.com/PsychExtendedThings/lime-new --quiet
 haxelib install openfl 9.3.3 --quiet
