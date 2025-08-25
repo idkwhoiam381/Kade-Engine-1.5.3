@@ -84,11 +84,12 @@ class Main extends Sprite
 			Std.int(gameWidth),
 			Std.int(gameHeight),
 			initialState,
-			zoom,
-			Std.int(60),
-			Std.int(60),
+			1.0,
+			60,
+			60,
 			skipSplash,
 			startFullscreen
+
 		);
 
 		addChild(game);
