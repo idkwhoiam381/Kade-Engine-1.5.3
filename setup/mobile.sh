@@ -8,14 +8,17 @@ haxelib setup ~/haxelib
 echo Installing dependencies...
 echo This might take a few moments depending on your internet speed.
 haxelib git linc_luajit https://github.com/PsychExtendedThings/linc_luajit --quiet
-haxelib install flixel 5.5.0 --quiet
+haxelib --never install flixel 5.5.0 --quiet
+haxelib run lime setup flixel --quiet
 haxelib install flixel-addons 3.2.2 --quiet
 haxelib install flixel-ui 2.4.0 --quiet
 haxelib install hscript 2.4.0 --quiet
 haxelib install flixel-tools --quiet
+haxelib git extension-webm https://github.com/luckydog7/extension-webm --quiet
 haxelib git polymod https://github.com/larsiusprime/polymod --quiet
 haxelib git hxcpp https://github.com/PsychExtendedThings/hxcpp --quiet
 haxelib git lime https://github.com/PsychExtendedThings/lime-new --quiet
 haxelib install openfl 9.3.3 --quiet
+haxelib install extension-androidtools --quiet
 haxelib git hxCodec https://github.com/PsychExtendedThings/hxCodec-0.6.3 --quiet
 echo Finished!
