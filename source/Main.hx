@@ -80,7 +80,16 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 		
-		game = new FlxGame(gameWidth, gameHeight, initialState, zoom, Std.int(60), Std.int(60), skipSplash, startFullscreen);
+		game = new FlxGame(
+			Std.int(gameWidth),
+			Std.int(gameHeight),
+			initialState,
+			zoom,
+			Std.int(60),
+			Std.int(60),
+			skipSplash,
+			startFullscreen
+		);
 
 		addChild(game);
 		
