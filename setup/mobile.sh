@@ -14,6 +14,9 @@ haxelib install flixel-addons 3.2.2 --quiet
 haxelib install flixel-ui 2.4.0 --quiet
 haxelib install hscript 2.4.0 --quiet
 haxelib install flixel-tools --quiet
+haxelib install newgrounds 2.0.3 --quiet
+haxelib install actuate 1.9.0 --quiet
+haxelib install discord_rpc 1.0.0 --quiet
 haxelib git extension-webm https://github.com/luckydog7/extension-webm --quiet
 haxelib git polymod https://github.com/larsiusprime/polymod --quiet
 haxelib git hxcpp https://github.com/PsychExtendedThings/hxcpp --quiet
