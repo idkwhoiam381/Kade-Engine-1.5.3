@@ -14,12 +14,6 @@ jobs:
             setupCommand: sh ./setup/mobile.sh
             artifactName: androidBuild-Arm64
             system: Android
-          - name: Android-Armv7
-            os: ubuntu-24.04
-            buildArgs: "android -ONLY_ARMV7 -final"
-            setupCommand: sh ./setup/mobile.sh
-            artifactName: androidBuild-Armv7
-            system: Android
     uses: ./.github/workflows/build.yml
     with:
         name: ${{ matrix.name }}
