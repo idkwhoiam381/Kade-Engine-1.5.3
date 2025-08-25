@@ -84,7 +84,7 @@ class Main extends Sprite
 			Std.int(gameWidth),
 			Std.int(gameHeight),
 			initialState,
-			1.0,
+			1,
 			60,
 			60,
 			skipSplash,
